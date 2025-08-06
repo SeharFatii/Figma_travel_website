@@ -1,6 +1,7 @@
 import Image from "next/image"; // ✅ correct
 import React from 'react'
 
+import { FaCirclePlay } from "react-icons/fa6";
 import Her from "@/public/Traveller 1.png"
 import deco from "../../public/Decore.png"
 import plane from "./../../public/Group (4).png"
@@ -26,40 +27,36 @@ and full life
 </h1>
 <Image src={deco} alt=""
 width={deco.width} height={deco.height}
-className="absolute lg:mt-[11.6%] z-[-1] lg:mr-[-29%]"
+className="absolute mt-[21%] w-[210px] right-[10%]  lg:mt-[11.6%] z-[-1] lg:mr-[-29%]"
 />
 
 
-<p className="lg:mt-6 lg:w-[477px] lg:text-[20px] border-2 border-black justify-center items-center lg:px-2">
+<p className=" mt-4 w-[320px] sm:mt-[4%] sm:w-[320px] lg:mt-6 lg:w-[477px] lg:text-[20px] border-2 border-black justify-center items-center lg:px-2">
 Built Wicket longer admire do barton vanity itself do in it. 
 Preferred to sportsmen it engrossed listening. 
 Park gate sell they west hard for the.
 
 </p>
 
+<div className="flex justify-center items-center gap-6">
+  <Link href="">
+    <button className="text-white w-[150px] mt-6 lg:w-[220px] bg-[#F1A501] rounded-[5px] px-2 py-4 lg:text-2xl lg:mt-4">
+      Find out more
+    </button>
+  </Link>
+<div className="flex justify-center items-center gap-2">
+  <Link href="">
+    <button className="text-white rounded-full px-2 py-4 text-2xl mt-4 flex items-center justify-center">
+      <FaCirclePlay className="text-red-500 bg-black rounded-full size-[50px] mt-[4px]" />
+    </button>
+  </Link>
+  <h1 className="text-base sm:text-lg lg:text-xl font-semibold mt-6" >
+    Play Demo
+  </h1>
 
-<div className="flex ">
-<Link href="">
-<button className="text-white w-[220px] bg-[#F1A501] rounded-[5px] relative  px-2 py-4 text-2xl mt-4 ">
-
-Find out more
-
-</button>
-
-
-</Link>
-
-
-<Link href="">
-<button className="text-white w-[220px] bg-[#F1A501] rounded-[5px] relative  px-2 py-4 text-2xl mt-4 ">
-
-Find out more
-
-</button>
-
-
-</Link>
+  </div>
 </div>
+
 
 
 
@@ -82,7 +79,7 @@ className="z-[-1] absolute lg:right-16 lg:mt-[10rem]"
 
 <Image src={Her.src} alt=" "
 width={Her.width} height={Her.height}
-className="h-[390px] w-[450px] lg:h-[650px] "
+className="h-[390px] w-[580px] justify-center flex ml-6 lg:h-[650px] "
 
 />
 
