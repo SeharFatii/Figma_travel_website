@@ -92,9 +92,9 @@ const Navbar = () => {
           <SheetHeader>
             <SheetTitle className="text-2xl font-bold text-center">Jadooo</SheetTitle>
    
-            <SheetDescription className='flex flex-col items-center gap-4 mt-4 text-[17px]'>
+            <SheetDescription className='flex flex-col items-center gap-4 mt-4 text-[17px] ml-4 md:ml-0'>
            
-                <Link href="" className="no-underline py-2 border-b border-black w-[400px]">
+                <Link href="" className="no-underline py-2 border-b border-black w-[400px] right-4 md:mr-0">
                   Destination
                 </Link>
                 <Link href="" className="no-underline py-2 border-b border-black w-[400px]">
