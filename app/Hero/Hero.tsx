@@ -15,11 +15,11 @@ const Hero = () => {
  <section  className='w-screen h-[490px] md:h-screen max-w-7xl p4 grid grid-cols-1 sm:grid-cols-2  ' >
 <div className='flex flex-col items-center p-4  ml-0 sm:ml-2 md:ml-8 lg:mt-12'>
 
-<h1 className='font-bold text-[18px] sm:text-[25px] justify-center mt-4  md:text-[25px] w-[360px] text-[#DF6951]  md:mt-4 md:w-[460px]'>
+<h1 className='font-bold text-[18px] absolute  left-[20px] sm:flex sm:text-[25px] justify-center mt-4 md:text-[25px] w-[360px] text-[#DF6951]  md:mt-4 md:w-[460px] lg:ml-4'>
 Best Destinations around the world
 
 </h1>
-<h1 className='font-bold text-[50px] w-[320px] md:text-[80px] justify-center leading-[50px] md:leading-[70px] lg:leading-[89px] tracking-[-4.2px]  md:tracking-[-3.2px] md:w-[545px] md:ml-14 border-2 border-black'>
+<h1 className='font-bold text-[50px] w-[320px] mt-8 md:mt-0  md:text-[80px] justify-center leading-[50px] md:leading-[70px] lg:mt-12 lg:leading-[89px] tracking-[-4.2px]  md:tracking-[-3.2px] md:w-[545px] md:ml-14'>
 
     Travel, enjoy
 and live a new
@@ -27,18 +27,18 @@ and full life
 </h1>
 <Image src={deco} alt=""
 width={deco.width} height={deco.height}
-className="absolute mt-[21%] w-[210px] right-[10%]  lg:mt-[11.6%] z-[-1] lg:mr-[-29%]"
+className="absolute mt-[21%] w-[210px] right-[0%]  lg:mt-[11.6%] z-[-1] lg:mr-[-29%]"
 />
 
 
-<p className=" mt-4 w-[320px] sm:mt-[4%] sm:w-[320px] lg:mt-6 lg:w-[477px] lg:text-[20px] border-2 border-black justify-center items-center lg:px-2">
+<p className=" mt-4 w-[320px] sm:mt-[4%] sm:w-[320px] lg:mt-6 lg:w-[477px] lg:text-[20px]  justify-center items-center lg:px-2">
 Built Wicket longer admire do barton vanity itself do in it. 
 Preferred to sportsmen it engrossed listening. 
 Park gate sell they west hard for the.
 
 </p>
 
-<div className="flex justify-center items-center gap-6">
+<div className="flex justify-center items-center gap-6 lg:mr-14">
   <Link href="">
     <button className="text-white w-[150px] mt-6 lg:w-[220px] bg-[#F1A501] rounded-[5px] px-2 py-4 lg:text-2xl lg:mt-4">
       Find out more
@@ -67,12 +67,12 @@ Park gate sell they west hard for the.
 
 <Image src={plane.src} alt=" "
 width={plane.width} height={plane.height}
-className="absolute"
+className="absolute  "
 
 />
 <Image src={plane.src} alt=" "
 width={plane.width} height={plane.height}
-className="z-[-1] absolute lg:right-16 lg:mt-[10rem]"
+className="z-[-1] absolute mt-14 right-8 lg:right-16 lg:mt-[10rem]"
 
 />
 
