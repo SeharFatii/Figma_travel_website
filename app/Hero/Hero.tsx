@@ -9,101 +9,82 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-  <>
-  
-  
- <section  className='w-screen h-[490px] md:h-screen max-w-7xl p4 grid grid-cols-1 sm:grid-cols-2  ' >
-<div className='flex flex-col items-center p-4  ml-0 sm:ml-2 md:ml-8 lg:mt-12'>
+    <>
+      <section className='w-screen h-[490px] md:h-screen max-w-7xl p4 grid grid-cols-1 sm:grid-cols-2'>
+        <div className='flex flex-col items-center p-4 ml-0 sm:ml-2 md:ml-8 lg:mt-12'>
 
-<h1 className='font-bold text-[18px] absolute  left-[20px] sm:flex sm:text-[25px] justify-center mt-4 md:text-[25px] w-[360px] text-[#DF6951]  md:mt-4 md:w-[460px] lg:ml-4'>
-Best Destinations around the world
+          <h1 className='font-bold text-[18px] absolute left-[20px] sm:flex sm:text-[25px] justify-center mt-4 md:text-[25px] w-[360px] text-[#DF6951] md:mt-4 md:w-[460px] lg:ml-4 transition-all duration-500 ease-in-out hover:scale-105'>
+            Best Destinations around the world
+          </h1>
 
-</h1>
-<h1 className='font-bold text-[50px] w-[320px] mt-8 md:mt-0  md:text-[80px] justify-center leading-[50px] md:leading-[70px] lg:mt-12 lg:leading-[89px] tracking-[-4.2px]  md:tracking-[-3.2px] md:w-[545px] md:ml-14'>
+          <h1 className='font-bold text-[50px] w-[320px] mt-8 md:mt-0 md:text-[80px] justify-center leading-[50px] md:leading-[70px] lg:mt-12 lg:leading-[89px] tracking-[-4.2px] md:tracking-[-3.2px] md:w-[545px] md:ml-14 transition-transform duration-500 ease-in-out hover:scale-105'>
+            Travel, enjoy
+            <br />
+            and live a new
+            <br />
+            and full life
+          </h1>
 
-    Travel, enjoy
-and live a new
-and full life
-</h1>
-<Image src={deco} alt=""
-width={deco.width} height={deco.height}
-className="absolute mt-[21%] w-[210px] right-[0%]  lg:mt-[11.6%] z-[-1] lg:mr-[-29%]"
-/>
+          <Image
+            src={deco}
+            alt=""
+            width={deco.width}
+            height={deco.height}
+            className="absolute mt-[21%] w-[210px] right-[0%] lg:mt-[11.6%] z-[-1] lg:mr-[-29%] transition-all duration-700 ease-in-out hover:rotate-6"
+          />
 
+          <p className="mt-4 w-[320px] sm:mt-[4%] sm:w-[320px] lg:mt-6 lg:w-[477px] lg:text-[20px] justify-center items-center lg:px-2 transition duration-500 ease-in-out hover:translate-y-1">
+            Built Wicket longer admire do barton vanity itself do in it.
+            Preferred to sportsmen it engrossed listening.
+            Park gate sell they west hard for the.
+          </p>
 
-<p className=" mt-4 w-[320px] sm:mt-[4%] sm:w-[320px] lg:mt-6 lg:w-[477px] lg:text-[20px]  justify-center items-center lg:px-2">
-Built Wicket longer admire do barton vanity itself do in it. 
-Preferred to sportsmen it engrossed listening. 
-Park gate sell they west hard for the.
+          <div className="flex justify-center items-center gap-6 lg:mr-14">
+            <Link href="">
+              <button className="text-white w-[150px] mt-6 lg:w-[220px] bg-[#F1A501] rounded-[5px] px-2 py-4 lg:text-2xl lg:mt-4 transition-transform duration-300 ease-in-out hover:scale-105 hover:brightness-110">
+                Find out more
+              </button>
+            </Link>
+            <div className="flex justify-center items-center gap-2">
+              <Link href="">
+                <button className="text-white rounded-full px-2 py-4 text-2xl mt-4 flex items-center justify-center transition duration-300 hover:scale-110 hover:rotate-6 hover:shadow-md hover:brightness-125 cursor-pointer">
+                  <FaCirclePlay className="text-red-500 bg-black rounded-full size-[50px] mt-[4px] hover:animate-bounce" />
+                </button>
+              </Link>
 
-</p>
+              <h1 className="text-base sm:text-lg lg:text-xl font-semibold mt-6 transition duration-300 hover:text-[#F1A501]">
+                Play Demo
+              </h1>
+            </div>
+          </div>
+        </div>
 
-<div className="flex justify-center items-center gap-6 lg:mr-14">
-  <Link href="">
-    <button className="text-white w-[150px] mt-6 lg:w-[220px] bg-[#F1A501] rounded-[5px] px-2 py-4 lg:text-2xl lg:mt-4">
-      Find out more
-    </button>
-  </Link>
-<div className="flex justify-center items-center gap-2">
-  <Link href="">
-    <button className="text-white rounded-full px-2 py-4 text-2xl mt-4 flex items-center justify-center">
-      <FaCirclePlay className="text-red-500 bg-black rounded-full size-[50px] mt-[4px]" />
-    </button>
-  </Link>
-  <h1 className="text-base sm:text-lg lg:text-xl font-semibold mt-6" >
-    Play Demo
-  </h1>
+        <div className="justify-center items-center mr-[130px] h-[290px]">
+          <Image
+            src={plane.src}
+            alt=" "
+            width={plane.width}
+            height={plane.height}
+            className="absolute transition-transform duration-700 ease-in-out hover:translate-x-2 hover:-rotate-2"
+          />
+          <Image
+            src={plane.src}
+            alt=" "
+            width={plane.width}
+            height={plane.height}
+            className="z-[-1] absolute mt-14 right-8 lg:right-16 lg:mt-[10rem] transition-transform duration-700 ease-in-out hover:-translate-y-2 hover:rotate-3"
+          />
+          <Image
+            src={Her.src}
+            alt=" "
+            width={Her.width}
+            height={Her.height}
+            className="h-[390px] w-[580px] justify-center flex ml-6 lg:h-[650px] transition-all duration-700 ease-in-out hover:scale-105"
+          />
+        </div>
+      </section>
+    </>
+  );
+};
 
-  </div>
-</div>
-
-
-
-
-
-</div>
-
-<div className="justify-center items-center mr-[130px] h-[290px]">
-
-<Image src={plane.src} alt=" "
-width={plane.width} height={plane.height}
-className="absolute  "
-
-/>
-<Image src={plane.src} alt=" "
-width={plane.width} height={plane.height}
-className="z-[-1] absolute mt-14 right-8 lg:right-16 lg:mt-[10rem]"
-
-/>
-
-
-<Image src={Her.src} alt=" "
-width={Her.width} height={Her.height}
-className="h-[390px] w-[580px] justify-center flex ml-6 lg:h-[650px] "
-
-/>
-
-
-
-</div>
-
-
-
- </section>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </>
-  )
-}
-
-export default Hero
+export default Hero;
