@@ -12,6 +12,7 @@ import scroll3 from "@/public/image 29.png"
 import scroll4 from "@/public/image 27.png"
 import Footer from "./Footer/Footer";
 
+
 export default function Home() {
   return (
    <>
